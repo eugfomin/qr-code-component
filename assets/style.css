@@ -1,0 +1,51 @@
+@import url("./fonts.css");
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: Outfit;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-code-container {
+  height: 550px;
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 24px;
+  gap: 20px;
+}
+
+.qr-code-container__image {
+  max-width: 90%;
+  border-radius: 24px;
+  margin-top: 16px;
+}
+
+.qr-code-container__heading {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 24px;
+  max-width: 90%;
+}
+
+.qr-code-container__paragraph {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 75%;
+}
